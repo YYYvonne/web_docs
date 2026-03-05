@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "npx vitepress dev docs",
-    "build": "npx vitepress build docs",
+    "build": "chmod +x node_modules/.bin/vitepress && vitepress build docs",
     "preview": "npx vitepress preview docs"
   },
   "devDependencies": {
