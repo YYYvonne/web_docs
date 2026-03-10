@@ -17,6 +17,10 @@ hero:
       link: /guide/config/
 
 features:
+  - icon: 📖
+    title: 概述
+    details: Web登录、界面介绍、基本操作指南
+    link: /guide/overview/
   - icon: 📊
     title: 监控
     details: 实时监控设备状态、端口统计、流量信息、PoE状态等
@@ -37,10 +41,6 @@ features:
     title: 诊断
     details: Ping测试、Traceroute、线缆检测等网络诊断工具
     link: /guide/diagnosis/
-  - icon: 📖
-    title: 快速入门
-    details: Web登录、界面介绍、基本操作指南
-    link: /guide/overview/
 ---
 
 <style>

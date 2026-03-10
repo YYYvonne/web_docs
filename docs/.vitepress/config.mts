@@ -121,7 +121,7 @@ export default defineConfig({
 
     // 社交链接
     socialLinks: [
-      { icon: 'github', link: 'https://github.com' }
+      // { icon: 'github', link: 'https://github.com' }
     ],
 
     // 页脚
