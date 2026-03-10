@@ -49,13 +49,13 @@ export default defineConfig({
             { text: 'PoE状态', link: '/guide/monitor/#poe状态' },
             { text: '串口服务器状态', link: '/guide/monitor/#串口服务器状态' },
             { text: 'LLDP状态', link: '/guide/monitor/#lldp状态' },
-            { text: 'IGMP Snooping状态', link: '/guide/monitor/#igmp状态' },
-            { text: 'DHCP Snooping状态', link: '/guide/monitor/#dhcp状态' },
+            { text: 'IGMP Snooping状态', link: '/guide/monitor/#igmp-snooping状态' },
+            { text: 'DHCP Snooping状态', link: '/guide/monitor/#dhcp-snooping状态' },
             { text: 'QinQ信息', link: '/guide/monitor/#qinq信息' },
-            { text: '环路检测状态', link: '/guide/monitor/#igmp状态' },
-            { text: 'MAC地址表', link: '/guide/monitor/#igmp状态' },
-            { text: 'ARP/邻居信息', link: '/guide/monitor/#igmp状态' },
-            { text: 'NTP状态', link: '/guide/monitor/#igmp状态' },
+            { text: '环路检测状态', link: '/guide/monitor/#环路检测状态' },
+            { text: 'MAC地址表', link: '/guide/monitor/#mac地址表' },
+            { text: 'ARP/邻居信息', link: '/guide/monitor/#arp-邻居信息' },
+            { text: 'NTP状态', link: '/guide/monitor/#ntp状态' },
           ]
         }
       ],
@@ -64,15 +64,15 @@ export default defineConfig({
           text: '配置',
           collapsed: false,
           items: [
-            { text: '端口配置', link: '/guide/config/#端口配置' },
-            { text: 'LAG配置', link: '/guide/config/#lag配置' },
-            { text: 'VLAN配置', link: '/guide/config/#vlan配置' },
-            { text: 'VLAN接口配置', link: '/guide/config/#vlan接口配置' },
-            { text: 'MAC地址表', link: '/guide/config/#mac地址表' },
-            { text: 'ARP配置', link: '/guide/config/#arp配置' },
-            { text: '静态路由', link: '/guide/config/#静态路由' },
-            { text: 'DHCP配置', link: '/guide/config/#dhcp配置' },
-            { text: 'DHCP Snooping', link: '/guide/config/#dhcp-snooping' }
+            { text: 'VLAN', link: '/guide/config/#vlan' },
+            { text: '端口配置', link: '/guide/config/#端口' },
+            { text: '生成树', link: '/guide/config/#生成树' },
+            { text: 'ERPS', link: '/guide/config/#erps' },
+            { text: 'PoE', link: '/guide/config/#poe' },
+            { text: '安全', link: '/guide/config/#安全' },
+            { text: '控制', link: '/guide/config/#控制' },
+            { text: '环路检测', link: '/guide/config/#环路检测' },
+            { text: 'DNS', link: '/guide/config/#dns' }, 
           ]
         }
       ],
@@ -81,13 +81,14 @@ export default defineConfig({
           text: '高级',
           collapsed: false,
           items: [
-            { text: '生成树配置', link: '/guide/advanced/#生成树配置' },
-            { text: 'ERPS配置', link: '/guide/advanced/#erps配置' },
-            { text: '端口安全', link: '/guide/advanced/#端口安全' },
-            { text: 'ACL配置', link: '/guide/advanced/#acl配置' },
-            { text: 'QoS配置', link: '/guide/advanced/#qos配置' },
+            { text: 'LLDP', link: '/guide/advanced/#lldp' },
             { text: 'IGMP Snooping', link: '/guide/advanced/#igmp-snooping' },
-            { text: '镜像配置', link: '/guide/advanced/#镜像配置' }
+            { text: 'MAC管理', link: '/guide/advanced/#mac管理' },
+            { text: 'DHCP Snooping', link: '/guide/advanced/#dhcp-snooping' },
+            { text: 'QinQ', link: '/guide/advanced/#qinq' },
+            { text: 'QoS', link: '/guide/advanced/#qos' },
+            { text: 'DoS', link: '/guide/advanced/#dos' },
+            { text: '路由', link: '/guide/advanced/#路由' }
           ]
         }
       ],
@@ -95,11 +96,12 @@ export default defineConfig({
         {
           text: '维护',
           items: [
-            { text: '系统设置', link: '/guide/maintenance/#系统设置' },
+            { text: '系统配置', link: '/guide/maintenance/#系统配置' },
+            { text: '文件管理', link: '/guide/maintenance/#文件管理' },
             { text: '用户管理', link: '/guide/maintenance/#用户管理' },
-            { text: '配置管理', link: '/guide/maintenance/#配置管理' },
-            { text: '固件升级', link: '/guide/maintenance/#固件升级' },
-            { text: '日志管理', link: '/guide/maintenance/#日志管理' }
+            { text: '时间管理', link: '/guide/maintenance/#时间管理' },
+            { text: 'SNMP', link: '/guide/maintenance/#snmp' },
+            { text: 'Syslog服务器', link: '/guide/maintenance/#syslog服务器' }
           ]
         }
       ],
@@ -107,9 +109,11 @@ export default defineConfig({
         {
           text: '诊断',
           items: [
-            { text: 'Ping测试', link: '/guide/diagnosis/#ping测试' },
-            { text: 'Traceroute', link: '/guide/diagnosis/#traceroute' },
-            { text: '线缆检测', link: '/guide/diagnosis/#线缆检测' }
+            { text: '网络工具', link: '/guide/diagnosis/#网络工具' },
+            { text: '光模块信息', link: '/guide/diagnosis/#光模块信息' },
+            { text: '一键收集', link: '/guide/diagnosis/#一键收集' },
+            { text: '掉电告警', link: '/guide/diagnosis/#掉电告警' },
+            { text: '线缆检测', link: '/guide/diagnosis/#线缆检测' },
           ]
         }
       ]
